@@ -1,0 +1,64 @@
+[Tue Mar  5 16:48:53 2019 - information] Enabling deserialization's dependency serialized_object
+[Tue Mar  5 16:48:53 2019 - information] Enabling format_string's dependency error_500
+[Tue Mar  5 16:48:53 2019 - information] Enabling redos's dependency server_header
+[Tue Mar  5 16:48:53 2019 - information] Enabling dav's dependency allowed_methods
+[Tue Mar  5 16:48:53 2019 - information] Enabling frontpage's dependency frontpage_version
+[Tue Mar  5 16:48:53 2019 - information] Enabling user_dir's dependency finger_bing
+[Tue Mar  5 16:48:53 2019 - information] Enabling user_dir's dependency finger_google
+[Tue Mar  5 16:48:54 2019 - information] Enabling user_dir's dependency finger_pks
+[Tue Mar  5 16:48:54 2019 - information] Enabling wsdl_finder's dependency wsdl_greper
+[Tue Mar  5 16:48:56 2019 - debug] Called w3afCore.start()
+[Tue Mar  5 16:48:56 2019 - debug] Enabling _dns_cache()
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] plugins
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     audit file_upload, csrf, deserialization, os_commanding, lfi, sqli, blind_sqli, phishing_vector, generic, format_string, websocket_hijacking, shell_shock, memcachei, un_ssl, ldapi, buffer_overflow, redos, global_redirect, xpath, cors_origin, htaccess_methods, dav, ssi, xxe, eval, rosetta_flash, xss, xst, ssl_certificate, preg_replace, mx_injection, response_splitting, rfd, rfi, frontpage
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] plugins
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     infrastructure server_header, allowed_methods, frontpage_version, finger_bing, finger_google, finger_pks
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] plugins
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     grep serialized_object, error_500, wsdl_greper
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] plugins
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     output text_file, console
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     output config text_file
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]         set verbose True
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]         set output_file ./w3af_DIR300.txt
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]         set http_output_file /home/will/output-http.txt
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]         back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] plugins
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     crawl genexus_xml, wordpress_fingerprint, dot_listing, content_negotiation, robots_txt, archive_dot_org, ria_enumerator, wordnet, user_dir, sitemap_xml, bing_spider, find_dvcs, dir_file_bruter, phpinfo, spider_man, import_results, urllist_txt, google_spider, url_fuzzer, find_backdoors, web_spider, find_captchas, oracle_discovery, wsdl_finder, wordpress_enumerate_users, web_diff, dwsync_xml, pykto, wordpress_fullpathdisclosure, phishtank, digit_sum, open_api, dot_ds_store, ghdb
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] plugins
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     auth detailed, generic
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ] target
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     set target http://192.168.0.1/
+[ Tue Mar  5 16:48:56 2019 - Enabled plugins ]     back
+[Tue Mar  5 16:48:57 2019 - debug] Starting the scan using w3af version 2019.1.2 / 7b0d28065a - 04 Mar 2019 01:46 / master
+[Tue Mar  5 16:48:57 2019 - debug] DNS response from DNS server for domain: 192.168.0.1
+[Tue Mar  5 16:49:03 2019 - debug] Will increase timeout to 6.60 seconds after HTTP socket error (did:IHnh3bOM)
+[Tue Mar  5 16:49:03 2019 - debug] Updating socket timeout for 192.168.0.1 from 6.00 to 6.60 seconds
+[Tue Mar  5 16:49:03 2019 - debug] Failed to HTTP "GET" "http://192.168.0.1/". Reason: "HTTP timeout error", going to retry (did:IHnh3bOM)
+[Tue Mar  5 16:49:03 2019 - debug] ExtendedUrllib error rate is at 1%
+[Tue Mar  5 16:49:03 2019 - debug] Increased the worker pool size to 31 (error rate: 1%)
+[Tue Mar  5 16:49:03 2019 - debug] Re-sending request "<HTTPRequest "http://192.168.0.1/" (cookies:True, cache:False, did:IHnh3bOM, timeout:6.00, new_connection:False)>" (did:IHnh3bOM) after initial exception: "HTTP timeout error"
+[Tue Mar  5 16:49:10 2019 - debug] Will increase timeout to 7.26 seconds after HTTP socket error (did:IHnh3bOM)
+[Tue Mar  5 16:49:10 2019 - debug] Updating socket timeout for 192.168.0.1 from 6.60 to 7.26 seconds
+[Tue Mar  5 16:49:10 2019 - debug] Failed to HTTP "GET" "http://192.168.0.1/". Reason: "HTTP timeout error", going to retry (did:IHnh3bOM)
+[Tue Mar  5 16:49:10 2019 - debug] ExtendedUrllib error rate is at 2%
+[Tue Mar  5 16:49:10 2019 - debug] Exception found during verify_target_server_up: "HTTP timeout error"
+[Tue Mar  5 16:49:10 2019 - debug] strategy.start() found exception "The remote web server is not answering our HTTP requests, multiple errors have been found while trying to GET a response from the server.\n\nIn most cases this means that the configured target is incorrect, the port is closed, there is a firewall blocking our packets or there is no HTTP daemon listening on that port.\n\nPlease verify your target configuration and try again. The tested targets were:\n\n  - http://192.168.0.1/\n\n"
+[Tue Mar  5 16:49:10 2019 - debug] discovery consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] audit consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] auth consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] bruteforce consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] grep consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - error] The following error was detected and could not be resolved:\nThe remote web server is not answering our HTTP requests, multiple errors have been found while trying to GET a response from the server.\n\nIn most cases this means that the configured target is incorrect, the port is closed, there is a firewall blocking our packets or there is no HTTP daemon listening on that port.\n\nPlease verify your target configuration and try again. The tested targets were:\n\n  - http://192.168.0.1/\n\n\n
+[Tue Mar  5 16:49:10 2019 - information] Scan finished in 13 seconds
+[Tue Mar  5 16:49:10 2019 - information] Stopping the core...
+[Tue Mar  5 16:49:10 2019 - debug] discovery consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] audit consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] auth consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] bruteforce consumer is None. Skipping call to terminate()
+[Tue Mar  5 16:49:10 2019 - debug] grep consumer is None. Skipping call to terminate()

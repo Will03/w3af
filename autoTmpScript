@@ -1,0 +1,13 @@
+plugins
+output text_file
+output config text_file
+set output_file ./w3af_DIR815.txt
+set verbose True
+back
+crawl all
+auth all
+audit all
+back
+start
+exit
+
