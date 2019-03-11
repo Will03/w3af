@@ -1,7 +1,7 @@
 plugins
 output text_file
 output config text_file
-set output_file ./w3af_DIR815.txt
+set output_file ./w3af_123.txt
 set verbose True
 back
 crawl all
